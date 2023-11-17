@@ -1,0 +1,33 @@
+export function Main(){
+    return (
+        <> 
+        <div>
+            asddddddddddddddddd
+            backgroundImgContainer
+            backgroundImgContainer
+            backgroundImgContainer
+            backgroundImgContainer
+            asddddddddddddddddd
+            backgroundImgContainer
+            backgroundImgContainer
+            backgroundImgContainer
+            backgroundImgContainer
+            asddddddddddddddddd
+            backgroundImgContainer
+            backgroundImgContainer
+            backgroundImgContainer
+            backgroundImgContainer
+            asddddddddddddddddd
+            backgroundImgContainer
+            backgroundImgContainer
+            backgroundImgContainer
+            backgroundImgContainer
+            asddddddddddddddddd
+            backgroundImgContainer
+            backgroundImgContainer
+            backgroundImgContainer
+            backgroundImgContainer
+        </div>
+        </>
+    )
+}

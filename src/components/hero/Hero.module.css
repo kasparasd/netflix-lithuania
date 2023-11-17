@@ -1,0 +1,14 @@
+.background {
+    background-image: url("/public/img/netflixBackground.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.container{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.601);
+}
+
+.widthContainer{
+    padding: 0 100px;
+}
