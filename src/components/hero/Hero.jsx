@@ -1,3 +1,4 @@
+import { EmailForm } from "../emailForm/EmailForm";
 import { Header } from "../header/Header";
 import { InformationalText } from "../informationalText/InformationalText";
 import style from "./Hero.module.css";
@@ -14,6 +15,7 @@ export function Hero(){
                 mainTitle="Unlimited movies, TV shows, and more"
                 secondaryText = "Watch anywhere. Cancel anytime."
                 />
+                <EmailForm/>
                 </div>
                
             </div>

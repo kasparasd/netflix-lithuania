@@ -7,14 +7,14 @@ export function Header(){
                 <dir className={style.logo}>Netflix</dir>
                 <div className={style.langLogin}>
                     
-                <div >
+                <div className={style.langLogIn}>
                     <select className={style.language} name="language" id="lang">
                         <option value="English">English</option>
                         <option value="Lithuanian">Lithuanian</option>
                     </select>
+                        <a className={style.logInBtn} href="##">Log in</a>
                 </div>
 
-                        <a href="##">Log in</a>
                 </div>
             </header>
         </>

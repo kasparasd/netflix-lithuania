@@ -17,8 +17,27 @@ header {
 }
 
 .language {
+    font-size: 18px;
     padding: 5px 20px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.459);
+    border: 1px rgba(107, 104, 104, 0.792) solid;
+    background-color: rgba(66, 65, 65, 0.387);
     color: white;
 }
+
+.langLogIn{
+    display: flex;
+    gap: 25px;
+}
+
+.logInBtn {
+        background-color: #E50914;
+        padding: 8px 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 16px;
+    
+}
+

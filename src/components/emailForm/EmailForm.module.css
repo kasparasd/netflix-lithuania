@@ -1,0 +1,68 @@
+.emailContainer{
+    margin-top: 20px;
+    color: white;
+    display: inline-block;
+}
+
+.emailFormText{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.formContainer {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 30px;
+}
+
+.emailInput {
+    border: 1px rgba(107, 104, 104, 0.792) solid;
+    position: relative;
+    background-color: rgba(66, 65, 65, 0.387);
+    border-radius: 5px;
+    color: white;
+    grid-row: 1;
+    padding: 16px 0;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.emailInput::placeholder {
+        color: white;
+        font-size: 16px;
+}
+
+.emailInput:focus::placeholder {
+    opacity: 0;
+}
+
+.emailHidden {
+    display: none;
+   
+}
+
+.addEmailCss{
+    position: absolute;
+    margin-left: 52px;
+    margin-top: 4px;
+    z-index: 1;
+    position: absolute;
+    display: block;
+    font-size: 12px;
+}
+
+.getStarted {
+    display: flex;
+    background-color: #E50914;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+}
