@@ -12,11 +12,12 @@
 }
 
 .faqH1{
-    font-size: 48px;
+    font-size: 46px;
 }
 
 .accordion {
     text-align: left;
+    margin: 30px 0;
     
 }
 
@@ -26,12 +27,12 @@
 }
 
 .title {
-    padding: 30px 30px;
+    padding: 25px 30px;
     background-color: rgb(45, 45, 45);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 1px;
 }
 
@@ -40,7 +41,7 @@
 }
 
 .contentShow {
-    font-size: 28px;
+    font-size: 24px;
     padding: 20px 30px;
     background-color: rgb(45, 45, 45);
     display: block;

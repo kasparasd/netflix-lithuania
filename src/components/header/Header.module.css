@@ -16,14 +16,6 @@ header {
     font-weight: bold;
 }
 
-.language {
-    font-size: 18px;
-    padding: 5px 20px;
-    border-radius: 5px;
-    border: 1px rgba(107, 104, 104, 0.792) solid;
-    background-color: rgba(66, 65, 65, 0.387);
-    color: white;
-}
 
 .langLogIn{
     display: flex;

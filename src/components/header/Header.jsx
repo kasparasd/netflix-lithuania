@@ -1,4 +1,5 @@
 import style from "./Header.module.css";
+import { Language } from "../language/Language";
 
 export function Header(){
     return (
@@ -8,10 +9,7 @@ export function Header(){
                 <div className={style.langLogin}>
                     
                 <div className={style.langLogIn}>
-                    <select className={style.language} name="language" id="lang">
-                        <option value="English">English</option>
-                        <option value="Lithuanian">Lithuanian</option>
-                    </select>
+                   <Language/>
                         <a className={style.logInBtn} href="##">Log in</a>
                 </div>
 

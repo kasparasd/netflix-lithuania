@@ -1,0 +1,32 @@
+.footerContainer {
+    background-color: black;
+    padding: 30px 0;
+}
+
+.footer {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.questions{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.links{
+    display: flex;
+    gap: 140px;
+    margin: 20px 0 10px 0;
+}
+
+.links  a {
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 15px;
+}
+
+.langLith{
+    margin-top: 20px;
+    font-size: 14px;
+}
