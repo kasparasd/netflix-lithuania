@@ -8,8 +8,8 @@
     border: solid 2px rgb(128, 128, 128);
     border-radius: 10px;
     padding: 10px 20px;
-    margin-top: 260px;
-    margin-right: 565px;
+    margin-top: 230px;
+    margin-right: 500px;
     position: absolute;
     color: white;
     display: flex;
@@ -30,4 +30,15 @@
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.movieName {
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.downloading {
+    color: rgb(0, 113, 235);
+    font-size: 14px;
+    margin-top: 5px;
 }
