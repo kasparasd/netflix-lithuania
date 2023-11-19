@@ -1,0 +1,10 @@
+.tv {
+    position: relative;
+    width: 500px;
+}
+
+.video {
+    margin-left: 60px;
+    margin-top: 40px;
+    position: absolute;
+}

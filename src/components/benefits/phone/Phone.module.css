@@ -1,0 +1,33 @@
+.phoneImage{
+    width: 500px;
+    position: relative;
+}
+
+.downloadingContainer {
+    background-color: black;
+    border: solid 2px rgb(128, 128, 128);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 260px;
+    margin-right: 565px;
+    position: absolute;
+    color: white;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation{
+    width: 50px;
+}
+
+.movieImg {
+    width: 50px;
+}
+
+.textContainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

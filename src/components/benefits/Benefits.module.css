@@ -1,0 +1,35 @@
+.right{
+    display: flex;
+    justify-content: center;
+    /* margin: 0 150px; */
+    gap: 20px;
+    padding: 50px 0 70px 0;
+    border-top: 6px solid rgba(128, 128, 128, 0.367);
+}
+
+.left {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        /* margin: 0 150px; */
+        gap: 20px;
+        padding: 50px 0 70px 0;
+        border-top: 8px solid rgba(128, 128, 128, 0.367);
+}
+
+
+
+.benefitstext {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.benefitsH1 {
+    color: white;
+
+}
+
+.benefitsP{
+    color: white;
+}
+
