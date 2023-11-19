@@ -1,5 +1,6 @@
 import { useState } from "react";
 import style from "./EmailForm.module.css";
+import { Button } from "../button/Button";
 
 export function EmailForm(){
 
@@ -21,7 +22,7 @@ export function EmailForm(){
             <div className={isActive ? `${style.addEmailCss}` : `${style.emailHidden}`}>Email address</div>
         <div className={style.formContainer}>
         <input onBlur={removeEmail} onFocus={addEmail} placeholder="Email address" className={style.emailInput} type="text" />
-        <a href="##" className={style.getStarted}>Get Started</a>
+        <Button text="Get Started"/>
         </div>
     </div>)
 }

@@ -26,6 +26,10 @@
     margin-bottom: 15px;
 }
 
+.links a:active {
+    color: rgb(193, 17, 25);
+}
+
 .langLith{
     margin-top: 20px;
     font-size: 14px;

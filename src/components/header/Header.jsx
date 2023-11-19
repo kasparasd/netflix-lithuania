@@ -1,5 +1,6 @@
 import style from "./Header.module.css";
 import { Language } from "../language/Language";
+import { Button } from "../button/Button";
 
 export function Header(){
     return (
@@ -10,7 +11,7 @@ export function Header(){
                     
                 <div className={style.langLogIn}>
                    <Language/>
-                        <a className={style.logInBtn} href="##">Log in</a>
+                        <Button text="Sign In" style={{ width: "90px", fontSize:"14px"}}/>
                 </div>
 
                 </div>
