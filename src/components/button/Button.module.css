@@ -15,3 +15,21 @@
 .button:hover {
     background-color: rgb(193, 17, 25);
 }
+
+
+
+@media (max-width: 320px){
+    .button {
+        padding: 10px 10px;
+        font-size: 20px;
+    
+}
+}
+
+/* @media (min-width: 320px){
+    .button {
+        padding: 3px 10px;
+        font-size: 10px;
+    
+}
+} */

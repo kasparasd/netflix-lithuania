@@ -6,3 +6,11 @@
     background-color: rgba(66, 65, 65, 0.387);
     color: white;
 }
+
+@media (max-width: 320px){
+    .language {
+        padding: 5px 5px;
+        font-size: 11px
+    
+}
+}

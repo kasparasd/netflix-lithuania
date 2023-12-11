@@ -17,7 +17,7 @@
 }
 
 .left {
-    width: 1000px;
+    /* width: 1000px; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -43,5 +43,26 @@
 
 .benefitsP{
     font-size: 24px;
+}
+
+@media (max-width: 320px){
+    .left, .right{
+        flex-direction: column;
+        padding: 70px 0px;
+    }
+    .container {
+        width: 320px;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .benefitsH1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .benefitsP{
+        font-size: 20px;
+    }
 }
 

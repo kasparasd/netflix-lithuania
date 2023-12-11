@@ -8,3 +8,14 @@
     margin-top: 40px;
     position: absolute;
 }
+
+@media (max-width: 320px){
+.tv {
+    width: 300px;
+}
+.video{
+    width: 220px;
+    margin-left: 40px;
+    margin-top: -26px;
+}
+}

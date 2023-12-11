@@ -13,3 +13,13 @@
     padding: 15px 160px;
     text-align: center;
 }
+
+@media (max-width: 320px){
+    .widthContainer {
+        padding: 0;
+        padding-bottom: 0;
+    }
+    .container {
+    padding-bottom: 10px;   
+    }
+}

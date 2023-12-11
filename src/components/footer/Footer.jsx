@@ -30,7 +30,7 @@ export function Footer(){
             <div>
                 <a href="##">Media Center</a>
                 <a href="##">Terms of Use</a>
-                <a href="##">Contact UsContact Us</a>
+                <a href="##">Contact Us</a>
                 <a href="##">Only on Netflix</a>
             </div>
         </div>
