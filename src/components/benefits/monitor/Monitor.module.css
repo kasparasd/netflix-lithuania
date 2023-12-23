@@ -10,6 +10,52 @@
     position: absolute;
 }
 
+@media (max-width: 959px){
+.monitor{
+    width: 600px;
+}
+.video{
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+}
+
+@media (max-width: 750px){
+.monitor{
+    width: 500px;
+}
+.video{
+    width: 320px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+}
+
+
+
+@media (max-width: 500px){
+    .monitor{
+        width: 380px;
+    }
+    .video{
+        width: 240px;
+        margin-left: 70px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 400px){
+    .monitor{
+        width: 300px;
+    }
+    .video{
+        width: 190px;
+        margin-left: 55px;
+        margin-top: -20px;
+    }
+}
+
 @media (max-width: 320px){
 .monitor{
     width: 300px;

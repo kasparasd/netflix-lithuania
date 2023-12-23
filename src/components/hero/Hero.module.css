@@ -6,7 +6,7 @@
 
 .container{
     background-color: rgba(0, 0, 0, 0.601);
-    padding-bottom: 200px;
+    padding-bottom: 7rem;
 }
 
 .widthContainer{
@@ -14,12 +14,25 @@
     text-align: center;
 }
 
+@media (max-width: 959px) and (min-width: 320px){
+    .widthContainer {
+        padding: 0;
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 600px){
+    .widthContainer {
+        padding: 0;
+        padding-bottom: 0;
+    }
+
+}
+
 @media (max-width: 320px){
     .widthContainer {
         padding: 0;
         padding-bottom: 0;
     }
-    .container {
-    padding-bottom: 10px;   
-    }
+
 }
+

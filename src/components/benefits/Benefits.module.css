@@ -4,25 +4,24 @@
 
 .container {
     margin: 0 auto;
-    width: 1000px;
+    width: 960px;
+    margin-bottom: 20px;
 }
 
 .right{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 0 150px; */
+
     gap: 20px;
     padding: 70px 0;
 }
 
 .left {
-    /* width: 1000px; */
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
-        /* margin: 0 150px; */
         gap: 20px;
         padding: 70px 0;
 }
@@ -30,8 +29,6 @@
 
 
 .benefitstext {
-    /* margin-top: 100px;
-    margin-left: 20px; */
     color: white;
 }
 
@@ -44,6 +41,160 @@
 .benefitsP{
     font-size: 24px;
 }
+
+@media (max-width: 959px) and (min-width: 320px){
+    .left, .right{
+        flex-direction: column;
+        padding: 70px 0px;
+    }
+    .container {
+        width: calc(959px - 10em);
+        text-align: center;
+
+    }
+    .benefitsH1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .benefitsP{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 788px){
+    .left, .right{
+        flex-direction: column;
+        padding: 70px 0px;
+    }
+    .container {
+        width: calc(959px - 15em);
+        text-align: center;
+
+    }
+    .benefitsH1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .benefitsP{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 720px){
+    .left, .right{
+        flex-direction: column;
+        padding: 70px 0px;
+    }
+    .container {
+        width: calc(959px - 20em);
+        text-align: center;
+
+    }
+    .benefitsH1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .benefitsP{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 667px){
+    .left, .right{
+        flex-direction: column;
+        padding: 70px 0px;
+    }
+    .container {
+        width: calc(959px - 25em);
+        text-align: center;
+
+    }
+    .benefitsH1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .benefitsP{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 583px){
+    .left, .right{
+        flex-direction: column;
+        padding: 70px 0px;
+    }
+    .container {
+        width: calc(959px - 30em);
+        text-align: center;
+
+    }
+    .benefitsH1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .benefitsP{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 484px){
+    .left, .right{
+        flex-direction: column;
+        padding: 70px 0px;
+    }
+    .container {
+        width: calc(959px - 35em);
+        text-align: center;
+
+    }
+    .benefitsH1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .benefitsP{
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px){
+    .left, .right{
+        flex-direction: column;
+        padding: 70px 0px;
+    }
+    .container {
+        width: calc(959px - 40em);
+        text-align: center;
+
+    }
+    .benefitsH1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .benefitsP{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
 
 @media (max-width: 320px){
     .left, .right{

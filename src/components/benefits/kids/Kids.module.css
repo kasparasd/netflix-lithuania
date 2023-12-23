@@ -2,6 +2,17 @@
     width: 500px;
 }
 
+@media (max-width: 959px) and (min-width: 320px){
+    .kidsImg{
+        width: 300px;
+    }
+    }
+@media (min-width: 500px){
+    .kidsImg{
+        width: 400px;
+    }
+    }
+
 @media (max-width: 320px){
     .kidsImg{
         width: 300px;

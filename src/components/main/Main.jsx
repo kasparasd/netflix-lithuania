@@ -37,7 +37,7 @@ export function Main(){
         playerType = {<Kids />}
         />
         
-        <Faq/>
+        {/* <Faq/> */}
         </div>
     )
 }

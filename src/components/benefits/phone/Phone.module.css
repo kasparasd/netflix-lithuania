@@ -43,6 +43,51 @@
     margin-top: 5px;
 }
 
+@media (max-width: 959px) and (min-width: 320px){
+    .phoneImage{
+        width: 280px;
+        position: relative;
+    }
+    .downloadingContainer {
+        background-color: black;
+        border: solid 2px rgb(128, 128, 128);
+        border-radius: 10px;
+        padding: 5px 15px;
+        margin-top: 380px;
+        margin-right: 0px;
+        position: absolute;
+        color: white;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .animation{
+        width: 35px;
+    }
+    
+    .movieImg {
+        width: 35px;
+    }
+    
+    .textContainer {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .movieName {
+        font-weight: bolder;
+        font-size: 17px;
+    }
+    
+    .downloading {
+        color: rgb(0, 113, 235);
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    
+}
 @media (max-width: 320px){
     .phoneImage{
         width: 280px;

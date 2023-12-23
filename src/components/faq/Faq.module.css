@@ -46,6 +46,33 @@
     background-color: rgb(45, 45, 45);
     display: block;
 }
+/* 
+@media (max-width: 600px){
+    .faqContainer{
+        width: 599px;
+        padding: 0px 15px;
+    }
+    .faqH1{
+        font-size: 34px;
+    }
+    .title {
+        padding: 20px 30px;
+        background-color: rgb(45, 45, 45);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 1px;
+    }
+    
+    
+    .contentShow {
+        font-size: 20px;
+        padding: 20px 30px;
+        background-color: rgb(45, 45, 45);
+        display: block;
+    }
+} */
 
 @media (max-width: 320px){
     .faqContainer{
@@ -73,3 +100,4 @@
         display: block;
     }
 }
+

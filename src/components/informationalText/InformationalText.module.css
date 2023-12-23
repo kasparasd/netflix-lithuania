@@ -1,7 +1,7 @@
 .mainTitle{
-    margin-top: 200px;
     color: white;
     font-size: 52px;
+    padding-top: 10rem;
 }
 
 .secondaryText{
@@ -10,6 +10,19 @@
     margin-top: 20px;
 }
 
+@media (max-width: 600px) and (min-width: 320px){
+    .mainTitle {
+        margin-top: 80px;
+        font-size: 32px;
+        padding: 0 30px;
+        
+    }
+    .secondaryText{
+        font-size: 20px;
+        padding: 0 30px;
+        
+    }
+}
 @media (max-width: 320px){
     .mainTitle {
         margin-top: 80px;

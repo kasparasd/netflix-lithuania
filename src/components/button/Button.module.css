@@ -1,7 +1,7 @@
 .button {
     display: flex;
     background-color: #E50914;
-    padding: 10px 20px;
+    padding: 0.8rem 1.5rem;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -18,18 +18,16 @@
 
 
 
-@media (max-width: 320px){
+@media (max-width: 600px) and (min-width: 320px){
     .button {
-        padding: 10px 10px;
         font-size: 20px;
     
 }
 }
 
-/* @media (min-width: 320px){
+@media (max-width: 319px){
     .button {
-        padding: 3px 10px;
         font-size: 10px;
     
 }
-} */
+}

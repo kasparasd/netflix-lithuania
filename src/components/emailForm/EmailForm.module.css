@@ -1,5 +1,5 @@
 .emailContainer{
-    margin-top: 20px;
+    margin-top: 40px;
     color: white;
     display: inline-block;
 }
@@ -53,6 +53,26 @@
     font-size: 12px;
 }
 
+@media (max-width: 600px) and (min-width: 320px){
+    .formContainer {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .emailFormText{
+        
+        margin-bottom: 20px;
+        font-size: 20px;
+        padding: 0 40px;
+        
+    }
+}
 
 @media (max-width: 320px){
     .formContainer {
@@ -66,7 +86,7 @@
 
     }
     .formContainer > a {
-        width: 60%;
+        width: 8em;
     }
     .emailFormText{
         

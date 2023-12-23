@@ -35,6 +35,32 @@
     margin-top: 20px;
     font-size: 14px;
 }
+
+
+/* @media (max-width: 600px){
+    .footer {
+        color: rgba(255, 255, 255, 0.7);
+        margin: 0 auto;
+        width: 599px;
+        padding-left: 30px;
+    }
+    
+    
+    .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        margin: 20px 0 10px 0;
+    }
+    
+    .links  a {
+        display: block;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 15px;
+    }
+    } */
+
 @media (max-width: 320px){
 .footer {
     color: rgba(255, 255, 255, 0.7);
@@ -58,3 +84,4 @@
     margin-bottom: 15px;
 }
 }
+
