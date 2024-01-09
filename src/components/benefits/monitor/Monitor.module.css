@@ -56,13 +56,13 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 319px){
 .monitor{
-    width: 300px;
+    width: 200px;
 }
 .video{
-    width: 190px;
-    margin-left: 50px;
-    margin-top: -20px;
+    width: 120px;
+    margin-left: 40px;
+    margin-top: -45px;
 }
 }

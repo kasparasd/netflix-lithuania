@@ -46,58 +46,94 @@
     background-color: rgb(45, 45, 45);
     display: block;
 }
-/* 
-@media (max-width: 600px){
-    .faqContainer{
-        width: 599px;
-        padding: 0px 15px;
-    }
-    .faqH1{
-        font-size: 34px;
-    }
-    .title {
-        padding: 20px 30px;
-        background-color: rgb(45, 45, 45);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 20px;
-        margin-bottom: 1px;
-    }
-    
-    
-    .contentShow {
-        font-size: 20px;
-        padding: 20px 30px;
-        background-color: rgb(45, 45, 45);
-        display: block;
-    }
-} */
 
 @media (max-width: 320px){
     .faqContainer{
         width: 319px;
         padding: 0px 15px;
     }
-    .faqH1{
-        font-size: 34px;
-    }
-    .title {
-        padding: 20px 30px;
-        background-color: rgb(45, 45, 45);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 20px;
-        margin-bottom: 1px;
+    
+}
+@media (min-width: 320px){
+    .faqContainer{
+        width: 319px;
+        padding: 0px 15px;
     }
     
+}
+
+@media (min-width: 400px){
+    .faqContainer{
+        width: 399px;
+        padding: 0px 15px;
+    }
     
-    .contentShow {
-        font-size: 20px;
-        padding: 20px 30px;
-        background-color: rgb(45, 45, 45);
-        display: block;
+}
+
+@media (min-width: 500px){
+    .faqContainer{
+        width: 499px;
+        padding: 0px 15px;
+    }
+    
+}
+
+@media (min-width: 600px){
+    .faqContainer{
+        width: 599px;
+        padding: 0px 15px;
+    }
+    
+}
+
+@media (min-width: 700px){
+    .faqContainer{
+        width: 699px;
+        padding: 0px 15px;
+    }
+    
+}
+@media (min-width: 800px){
+    .faqContainer{
+        width: 759px;
+        padding: 0px 15px;
+    }
+    
+}
+@media (min-width: 850px){
+    .faqContainer{
+        width: 800px;
+        padding: 0px 15px;
+    }
+    
+}
+
+@media (min-width: 900px){
+    .faqContainer{
+        width: 850px;
+        padding: 0px 15px;
+    }
+    
+}
+
+@media (min-width: 960px){
+    .faqContainer{
+        width: 900px;
+        padding: 0px 15px;
+    }
+    
+}
+
+@media (min-width: 1000px){
+    .faqContainer{
+        width: 950px;
+        padding: 0px 15px;
     }
 }
 
+@media (min-width: 1050px){
+    .faqContainer{
+        width: 1000px;
+        padding: 0px 15px;
+    }
+}
